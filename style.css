@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Batman';
+    src: url('font/batmfa__.ttf') format('truetype');
+  }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --color-vt: rgb(0, 255, 0);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(105, 0, 204); 
+}
+
+header {
+    backdrop-filter: brightness(75%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+li {
+    list-style: none;
+    font-family: 'Batman';
+    color: var(--color-vt);
+}
+
+li:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.base {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    color: var(--color-vt);
+    font-weight: bold;
+}
+
+.base img {
+    border: 8px var(--color-vt) solid;
+}
+
+.not1 {
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.not2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.base p {
+    padding-top: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: var(--color-vt);
+    font-family: "Poppins", sans-serif;
+}
